@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.joinPointer = exports.parsePointer = exports.unescapeSegment = exports.escapeSegment = exports.applyPatch = exports.deepEqual = exports.diff = void 0;
+var diff_1 = require("./diff");
+Object.defineProperty(exports, "diff", { enumerable: true, get: function () { return diff_1.diff; } });
+Object.defineProperty(exports, "deepEqual", { enumerable: true, get: function () { return diff_1.deepEqual; } });
+var apply_1 = require("./apply");
+Object.defineProperty(exports, "applyPatch", { enumerable: true, get: function () { return apply_1.applyPatch; } });
+var pointer_1 = require("./pointer");
+Object.defineProperty(exports, "escapeSegment", { enumerable: true, get: function () { return pointer_1.escapeSegment; } });
+Object.defineProperty(exports, "unescapeSegment", { enumerable: true, get: function () { return pointer_1.unescapeSegment; } });
+Object.defineProperty(exports, "parsePointer", { enumerable: true, get: function () { return pointer_1.parsePointer; } });
+Object.defineProperty(exports, "joinPointer", { enumerable: true, get: function () { return pointer_1.joinPointer; } });
